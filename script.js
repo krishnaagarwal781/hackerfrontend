@@ -137,7 +137,7 @@ window.onload = async () => {
         }),
       };
 
-      fetch("https://hackerbackend.onrender.com", options)
+      fetch("https://hackerbackend.onrender.com/store_information", options)
         .then((response) => response.json())
         .then((response) => console.log(response))
         .catch((err) => console.error(err));
